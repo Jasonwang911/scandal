@@ -19,4 +19,6 @@
 	@import './common/icon.css';
 	/* animation.css动画库 */
 	@import './common/animate.min.css';
+	/* 公共样式 */
+	@import './common/common.css';
 </style>
