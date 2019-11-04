@@ -81,8 +81,17 @@
 						}
 					}
 				}
+		},
+		{
+			"path" : "pages/add-input/add-input",
+			"style" : {
+				"app-plus": {
+					// 禁止原生导航 navigationStyle为custom，或titleNView为false
+					"titleNView":false
+				}
+			}
 		}
-  ],
+    ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "demo",

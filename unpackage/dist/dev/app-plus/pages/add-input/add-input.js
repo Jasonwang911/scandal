@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"title.",[1],"data-v-c5ef3782{ margin: 0 auto; }\n.",[1],"text-input.",[1],"data-v-c5ef3782{ border: ",[0,1]," solid #EEEEEE; }\n.",[1],"gonggao.",[1],"data-v-c5ef3782{ }\n",],undefined,{path:"./pages/add-input/add-input.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/add-input/add-input.wxml') } }));
