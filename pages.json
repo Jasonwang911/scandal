@@ -40,9 +40,15 @@
 					}
 				}
 			}
-		},{
+		},
+		{
 				"path" : "pages/news/news",
-				"style" : {}
+				"style" : {
+					"app-plus": {
+						// 禁止原生导航 navigationStyle为custom，或titleNView为false
+						"titleNView":false
+					}
+				}
 		},{
 			"path" : "pages/paper/paper",
 			"style" : {}

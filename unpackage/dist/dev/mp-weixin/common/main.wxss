@@ -2067,7 +2067,7 @@ radio-group label, checkbox-group label{
 	display: -ms-flexbox;
 	display: flex;
 }
-.u-f-ac, .u-f-ajc{
+.u-f-ac,.u-f-ajc{
 	-webkit-box-align: center;
 	-webkit-align-items: center;
 	    -ms-flex-align: center;

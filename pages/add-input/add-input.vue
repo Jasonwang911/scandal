@@ -19,14 +19,14 @@
 		<!-- 弹出公告 -->
 		<uni-popup ref="popup" type="center" :show="showpopup">
 			<view class="gonggao">
-				<view class="u-f-ajc">
+				<view class="gonggao-img u-f-ajc">
 					<image src="../../static/common/addinput.png" mode="widthFix"></image>
 				</view>
-				<view>1.xxxxxxx xxxxxx</view>
-				<view>2.xxxxxxxxxxx</view>
-				<view>3.xxxxxxxxxxx</view>
-				<view>4.xxxxxxxxxxx</view>
-				<button type="primary" @tap="hidePopup">朕知道了</button>
+				<view class="gonggao-text">1.xxxxxxx xxxxxx</view>
+				<view class="gonggao-text">2.xxxxxxxxxxx</view>
+				<view class="gonggao-text">3.xxxxxxxxxxx</view>
+				<view class="gonggao-text">4.xxxxxxxxxxx</view>
+				<button type="default" @tap="hidePopup">朕知道了</button>
 			</view>
 		</uni-popup>
 	</view>
@@ -45,6 +45,8 @@
 		},
 		data() {
 			return {
+				// 是否是第一次进入
+				isget: false,
 				changelookOpts: ['所有人可见', '仅自己可见'],
 				yinsi: '所有人可见',
 				text: '',
@@ -59,7 +61,39 @@
 		mounted() {
 			this.$refs.popup.open()
 		},
+		// 监听返回事件
+		onBackPress() {
+			if(!this.text && this.imageList.length < 1) {
+				return
+			}
+			if(!this.isget) {
+				// 阻止默认行为  return true
+				this.baocun()
+				return true
+			}
+		},
 		methods: {
+			// 保存逻辑
+			baocun() {
+				uni.showModal({
+					content: '是否要保存未草稿',
+					cancelText: '不保存',
+					confirmText: '保存',
+					success: res => {
+						if(res.confirm) {
+							// 保存
+							console.log('保存')
+						}else {
+							// 不保存
+							console.log('不保存')
+						}
+						this.isget = true
+						uni.navigateBack({
+							delta: 1
+						});
+					}
+				});
+			},
 			// 返回按钮
 			back() {
 				uni.navigateBack({
@@ -104,6 +138,18 @@
 	border: 1upx solid #EEEEEE;
 }
 .gonggao{
-	
+	width: 500upx;
+}
+.gonggao-img image{
+	width: 85%;
+	margin-bottom: 20upx;
+}
+.gonggao button{
+	background: #FFE934;
+	color: #171606;
+	margin-top: 20upx;
+}
+.gonggao-text{
+	text-align: left !important;
 }
 </style>

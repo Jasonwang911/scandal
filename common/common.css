@@ -2,7 +2,7 @@
 .u-f,.u-f-ac,.u-f-ajc{
 	display: flex;
 }
-.u-f-ac, .u-f-ajc{
+.u-f-ac,.u-f-ajc{
 	align-items: center;
 }
 .u-f-ajc{

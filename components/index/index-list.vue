@@ -4,7 +4,7 @@
 			<view class="u-f-ajc user">
 				<image :src="item.userpic" mode="widthFix"></image>{{item.username}}
 			</view>
-			<view class="u-f-ac guanzhu" v-show="!item.isguanzhu" @tap="guanzhu">
+			<view class="u-f-ac guanzhu" v-show="!isguanzhu" @tap="guanzhu">
 				<view class="icon iconfont icon-zengjia"></view>关注
 			</view>
 		</view>
@@ -21,8 +21,8 @@
 		</view>
 		<view class="index-list4">
 			<view>
-				<view :class="{'active': item.infonum.index === 1}" @tap="caozuo('ding')"><view class="icon iconfont icon-icon_xiaolian-mian"></view>{{item.infonum.dingnum}}</view>
-				<view :class="{'active': item.infonum.index === 2}" @tap="caozuo('cai')"><view class="icon iconfont icon-kulian"></view>{{item.infonum.cainum}}</view>
+				<view :class="{'active': infonum.index === 1}" @tap="caozuo('ding')"><view class="icon iconfont icon-icon_xiaolian-mian"></view>{{infonum.dingnum}}</view>
+				<view :class="{'active': infonum.index === 2}" @tap="caozuo('cai')"><view class="icon iconfont icon-kulian"></view>{{infonum.cainum}}</view>
 			</view>
 			<view>
 				<view><view class="icon iconfont icon-pinglun"></view>{{item.playnum}}</view>
@@ -43,10 +43,16 @@
 			},
 			index: Number
 		},
+		data() {
+			return {
+				 isguanzhu: this.item.isguanzhu,
+				 infonum: this.item.infonum
+			}
+		},
 		methods: {
 			// 关注
 			guanzhu() {
-				this.item.isguanzhu = true;
+				this.isguanzhu = true;
 				uni.showToast({
 					title: '关注成功'
 				})
@@ -54,22 +60,22 @@
 			// 顶踩
 			caozuo(type) {
 				switch(type) {
-					// case 'ding': 
-					// 	if(this.item.infonum.index === 1) return;
-					// 	this.item.infonum.dingnum ++
-					// 	if(this.item.infonum.index === 2) {
-					// 		this.item.infonum.cainum --
-					// 	}
-					// 	this.item.infonum.index = 1;
-					// 	break;
-					// case 'cai':
-					// 	if(this.item.infonum.index === 2) return;
-					// 	this.item.infonum.cainum ++
-					// 	if(this.item.infonum.index === 1) {
-					// 		this.item.infonum.dingnum --
-					// 	}
-					// 	this.item.infonum.index = 2;
-					// 	break;
+					case 'ding': 
+						if(this.infonum.index === 1) return;
+						this.infonum.dingnum ++
+						if(this.infonum.index === 2) {
+							this.infonum.cainum --
+						}
+						this.infonum.index = 1;
+						break;
+					case 'cai':
+						if(this.infonum.index === 2) return;
+						this.infonum.cainum ++
+						if(this.infonum.index === 1) {
+							this.infonum.dingnum --
+						}
+						this.infonum.index = 2;
+						break;
 				}
 			},
 			// 进入详情页
