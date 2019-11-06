@@ -7584,7 +7584,7 @@ internalMixin(Vue);
 
 /***/ }),
 
-/***/ 23:
+/***/ 25:
 /*!*****************************************************************************!*\
   !*** E:/jason/vue/uni-app/scandal/main.js?{"page":"pages%2Fpaper%2Fpaper"} ***!
   \*****************************************************************************/
@@ -7595,25 +7595,8 @@ internalMixin(Vue);
 /* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 4);
 
 var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 2));
-var _paper = _interopRequireDefault(__webpack_require__(/*! ./pages/paper/paper.vue */ 24));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+var _paper = _interopRequireDefault(__webpack_require__(/*! ./pages/paper/paper.vue */ 26));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
 createPage(_paper.default);
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["createPage"]))
-
-/***/ }),
-
-/***/ 29:
-/*!***************************************************************************!*\
-  !*** E:/jason/vue/uni-app/scandal/main.js?{"page":"pages%2Fhome%2Fhome"} ***!
-  \***************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 4);
-
-var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 2));
-var _home = _interopRequireDefault(__webpack_require__(/*! ./pages/home/home.vue */ 30));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
-createPage(_home.default);
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["createPage"]))
 
 /***/ }),
@@ -7649,7 +7632,24 @@ module.exports = g;
 
 /***/ }),
 
-/***/ 35:
+/***/ 31:
+/*!***************************************************************************!*\
+  !*** E:/jason/vue/uni-app/scandal/main.js?{"page":"pages%2Fhome%2Fhome"} ***!
+  \***************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 4);
+
+var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 2));
+var _home = _interopRequireDefault(__webpack_require__(/*! ./pages/home/home.vue */ 32));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+createPage(_home.default);
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["createPage"]))
+
+/***/ }),
+
+/***/ 37:
 /*!*******************************************************************************!*\
   !*** E:/jason/vue/uni-app/scandal/main.js?{"page":"pages%2Fsearch%2Fsearch"} ***!
   \*******************************************************************************/
@@ -7660,7 +7660,7 @@ module.exports = g;
 /* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 4);
 
 var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 2));
-var _search = _interopRequireDefault(__webpack_require__(/*! ./pages/search/search.vue */ 36));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+var _search = _interopRequireDefault(__webpack_require__(/*! ./pages/search/search.vue */ 38));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
 createPage(_search.default);
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["createPage"]))
 
@@ -7678,7 +7678,7 @@ createPage(_search.default);
 
 /***/ }),
 
-/***/ 41:
+/***/ 43:
 /*!*************************************************************************************!*\
   !*** E:/jason/vue/uni-app/scandal/main.js?{"page":"pages%2Fadd-input%2Fadd-input"} ***!
   \*************************************************************************************/
@@ -7689,25 +7689,25 @@ createPage(_search.default);
 /* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 4);
 
 var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 2));
-var _addInput = _interopRequireDefault(__webpack_require__(/*! ./pages/add-input/add-input.vue */ 42));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+var _addInput = _interopRequireDefault(__webpack_require__(/*! ./pages/add-input/add-input.vue */ 44));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
 createPage(_addInput.default);
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["createPage"]))
 
 /***/ }),
 
-/***/ 89:
+/***/ 91:
 /*!**********************************************************!*\
   !*** ./node_modules/@babel/runtime/regenerator/index.js ***!
   \**********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! regenerator-runtime */ 90);
+module.exports = __webpack_require__(/*! regenerator-runtime */ 92);
 
 
 /***/ }),
 
-/***/ 90:
+/***/ 92:
 /*!************************************************************!*\
   !*** ./node_modules/regenerator-runtime/runtime-module.js ***!
   \************************************************************/
@@ -7738,7 +7738,7 @@ var oldRuntime = hadRuntime && g.regeneratorRuntime;
 // Force reevalutation of runtime.js.
 g.regeneratorRuntime = undefined;
 
-module.exports = __webpack_require__(/*! ./runtime */ 91);
+module.exports = __webpack_require__(/*! ./runtime */ 93);
 
 if (hadRuntime) {
   // Restore the original runtime.
@@ -7755,7 +7755,7 @@ if (hadRuntime) {
 
 /***/ }),
 
-/***/ 91:
+/***/ 93:
 /*!*****************************************************!*\
   !*** ./node_modules/regenerator-runtime/runtime.js ***!
   \*****************************************************/

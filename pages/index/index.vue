@@ -95,7 +95,7 @@
 							type: 'video',  // 图文 img  视频 video
 							playnum: 20,
 							long: '2:27',
-							titlepic: '../../static/demo/datapic/11.jpg',
+							titlepic: '../../static/demo/datapic/12.jpg',
 							infonum: {
 								dingnum: 10,
 								cainum: 8,
@@ -110,7 +110,7 @@
 							isguanzhu: false,
 							title: '我是图片',
 							type: 'img',  // 图文 img  视频 video
-							titlepic: '../../static/demo/datapic/11.jpg',
+							titlepic: '../../static/demo/datapic/13.jpg',
 							infonum: {
 								dingnum: 10,
 								cainum: 8,
@@ -127,7 +127,7 @@
 							type: 'video',  // 图文 img  视频 video
 							playnum: 20,
 							long: '2:27',
-							titlepic: '../../static/demo/datapic/11.jpg',
+							titlepic: '../../static/demo/datapic/14.jpg',
 							infonum: {
 								dingnum: 10,
 								cainum: 8,
@@ -147,7 +147,7 @@
 							isguanzhu: false,
 							title: '我是图片',
 							type: 'img',  // 图文 img  视频 video
-							titlepic: '../../static/demo/datapic/11.jpg',
+							titlepic: '../../static/demo/datapic/16.jpg',
 							infonum: {
 								dingnum: 10,
 								cainum: 8,
@@ -164,7 +164,7 @@
 							type: 'video',  // 图文 img  视频 video
 							playnum: 20,
 							long: '2:27',
-							titlepic: '../../static/demo/datapic/11.jpg',
+							titlepic: '../../static/demo/datapic/17.jpg',
 							infonum: {
 								dingnum: 10,
 								cainum: 8,
@@ -181,7 +181,7 @@
 							type: 'video',  // 图文 img  视频 video
 							playnum: 20,
 							long: '2:27',
-							titlepic: '../../static/demo/datapic/11.jpg',
+							titlepic: '../../static/demo/datapic/18.jpg',
 							infonum: {
 								dingnum: 10,
 								cainum: 8,
@@ -198,7 +198,7 @@
 							type: 'video',  // 图文 img  视频 video
 							playnum: 20,
 							long: '2:27',
-							titlepic: '../../static/demo/datapic/11.jpg',
+							titlepic: '../../static/demo/datapic/19.jpg',
 							infonum: {
 								dingnum: 10,
 								cainum: 8,
@@ -215,7 +215,7 @@
 							type: 'video',  // 图文 img  视频 video
 							playnum: 20,
 							long: '2:27',
-							titlepic: '../../static/demo/datapic/11.jpg',
+							titlepic: '../../static/demo/datapic/20.jpg',
 							infonum: {
 								dingnum: 10,
 								cainum: 8,
@@ -232,7 +232,7 @@
 							type: 'video',  // 图文 img  视频 video
 							playnum: 20,
 							long: '2:27',
-							titlepic: '../../static/demo/datapic/11.jpg',
+							titlepic: '../../static/demo/datapic/21.jpg',
 							infonum: {
 								dingnum: 10,
 								cainum: 8,
@@ -249,7 +249,7 @@
 							type: 'video',  // 图文 img  视频 video
 							playnum: 20,
 							long: '2:27',
-							titlepic: '../../static/demo/datapic/11.jpg',
+							titlepic: '../../static/demo/datapic/22.jpg',
 							infonum: {
 								dingnum: 10,
 								cainum: 8,
@@ -269,7 +269,7 @@
 							isguanzhu: false,
 							title: '我是图片',
 							type: 'img',  // 图文 img  视频 video
-							titlepic: '../../static/demo/datapic/11.jpg',
+							titlepic: '../../static/demo/datapic/23.jpg',
 							infonum: {
 								dingnum: 10,
 								cainum: 8,
@@ -286,7 +286,7 @@
 							type: 'video',  // 图文 img  视频 video
 							playnum: 20,
 							long: '2:27',
-							titlepic: '../../static/demo/datapic/11.jpg',
+							titlepic: '../../static/demo/datapic/24.jpg',
 							infonum: {
 								dingnum: 10,
 								cainum: 8,
@@ -310,7 +310,7 @@
 							isguanzhu: false,
 							title: '我是图片',
 							type: 'img',  // 图文 img  视频 video
-							titlepic: '../../static/demo/datapic/11.jpg',
+							titlepic: '../../static/demo/datapic/25.jpg',
 							infonum: {
 								dingnum: 10,
 								cainum: 8,
@@ -327,7 +327,7 @@
 							type: 'video',  // 图文 img  视频 video
 							playnum: 20,
 							long: '2:27',
-							titlepic: '../../static/demo/datapic/11.jpg',
+							titlepic: '../../static/demo/datapic/26.jpg',
 							infonum: {
 								dingnum: 10,
 								cainum: 8,
@@ -347,7 +347,7 @@
 							isguanzhu: false,
 							title: '我是图片',
 							type: 'img',  // 图文 img  视频 video
-							titlepic: '../../static/demo/datapic/11.jpg',
+							titlepic: '../../static/demo/datapic/27.jpg',
 							infonum: {
 								dingnum: 10,
 								cainum: 8,
@@ -364,7 +364,7 @@
 							type: 'video',  // 图文 img  视频 video
 							playnum: 20,
 							long: '2:27',
-							titlepic: '../../static/demo/datapic/11.jpg',
+							titlepic: '../../static/demo/datapic/28.jpg',
 							infonum: {
 								dingnum: 10,
 								cainum: 8,
@@ -384,7 +384,7 @@
 							isguanzhu: false,
 							title: '我是图片',
 							type: 'img',  // 图文 img  视频 video
-							titlepic: '../../static/demo/datapic/11.jpg',
+							titlepic: '../../static/demo/datapic/29.jpg',
 							infonum: {
 								dingnum: 10,
 								cainum: 8,
@@ -401,7 +401,7 @@
 							type: 'video',  // 图文 img  视频 video
 							playnum: 20,
 							long: '2:27',
-							titlepic: '../../static/demo/datapic/11.jpg',
+							titlepic: '../../static/demo/datapic/30.jpg',
 							infonum: {
 								dingnum: 10,
 								cainum: 8,

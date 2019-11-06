@@ -110,7 +110,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var SwiperTabHead = function SwiperTabHead() {return __webpack_require__.e(/*! import() | components/index/swiper-tab-head */ "components/index/swiper-tab-head").then(__webpack_require__.bind(null, /*! ../../components/index/swiper-tab-head.vue */ 49));};var IndexList = function IndexList() {return __webpack_require__.e(/*! import() | components/index/index-list */ "components/index/index-list").then(__webpack_require__.bind(null, /*! ../../components/index/index-list.vue */ 56));};var LoadMore = function LoadMore() {return __webpack_require__.e(/*! import() | components/common/load-more */ "components/common/load-more").then(__webpack_require__.bind(null, /*! ../../components/common/load-more.vue */ 63));};var Nothing = function Nothing() {return __webpack_require__.e(/*! import() | components/common/nothing */ "components/common/nothing").then(__webpack_require__.bind(null, /*! ../../components/common/nothing.vue */ 70));};var _default =
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var SwiperTabHead = function SwiperTabHead() {return __webpack_require__.e(/*! import() | components/index/swiper-tab-head */ "components/index/swiper-tab-head").then(__webpack_require__.bind(null, /*! ../../components/index/swiper-tab-head.vue */ 51));};var IndexList = function IndexList() {return __webpack_require__.e(/*! import() | components/index/index-list */ "components/index/index-list").then(__webpack_require__.bind(null, /*! ../../components/index/index-list.vue */ 58));};var LoadMore = function LoadMore() {return __webpack_require__.e(/*! import() | components/common/load-more */ "components/common/load-more").then(__webpack_require__.bind(null, /*! ../../components/common/load-more.vue */ 65));};var Nothing = function Nothing() {return __webpack_require__.e(/*! import() | components/common/nothing */ "components/common/nothing").then(__webpack_require__.bind(null, /*! ../../components/common/nothing.vue */ 72));};var _default =
 
 
 
@@ -207,7 +207,7 @@ __webpack_require__.r(__webpack_exports__);
           type: 'video', // 图文 img  视频 video
           playnum: 20,
           long: '2:27',
-          titlepic: '../../static/demo/datapic/11.jpg',
+          titlepic: '../../static/demo/datapic/12.jpg',
           infonum: {
             dingnum: 10,
             cainum: 8,
@@ -222,7 +222,7 @@ __webpack_require__.r(__webpack_exports__);
           isguanzhu: false,
           title: '我是图片',
           type: 'img', // 图文 img  视频 video
-          titlepic: '../../static/demo/datapic/11.jpg',
+          titlepic: '../../static/demo/datapic/13.jpg',
           infonum: {
             dingnum: 10,
             cainum: 8,
@@ -239,7 +239,7 @@ __webpack_require__.r(__webpack_exports__);
           type: 'video', // 图文 img  视频 video
           playnum: 20,
           long: '2:27',
-          titlepic: '../../static/demo/datapic/11.jpg',
+          titlepic: '../../static/demo/datapic/14.jpg',
           infonum: {
             dingnum: 10,
             cainum: 8,
@@ -259,7 +259,7 @@ __webpack_require__.r(__webpack_exports__);
           isguanzhu: false,
           title: '我是图片',
           type: 'img', // 图文 img  视频 video
-          titlepic: '../../static/demo/datapic/11.jpg',
+          titlepic: '../../static/demo/datapic/16.jpg',
           infonum: {
             dingnum: 10,
             cainum: 8,
@@ -276,7 +276,7 @@ __webpack_require__.r(__webpack_exports__);
           type: 'video', // 图文 img  视频 video
           playnum: 20,
           long: '2:27',
-          titlepic: '../../static/demo/datapic/11.jpg',
+          titlepic: '../../static/demo/datapic/17.jpg',
           infonum: {
             dingnum: 10,
             cainum: 8,
@@ -293,7 +293,7 @@ __webpack_require__.r(__webpack_exports__);
           type: 'video', // 图文 img  视频 video
           playnum: 20,
           long: '2:27',
-          titlepic: '../../static/demo/datapic/11.jpg',
+          titlepic: '../../static/demo/datapic/18.jpg',
           infonum: {
             dingnum: 10,
             cainum: 8,
@@ -310,7 +310,7 @@ __webpack_require__.r(__webpack_exports__);
           type: 'video', // 图文 img  视频 video
           playnum: 20,
           long: '2:27',
-          titlepic: '../../static/demo/datapic/11.jpg',
+          titlepic: '../../static/demo/datapic/19.jpg',
           infonum: {
             dingnum: 10,
             cainum: 8,
@@ -327,7 +327,7 @@ __webpack_require__.r(__webpack_exports__);
           type: 'video', // 图文 img  视频 video
           playnum: 20,
           long: '2:27',
-          titlepic: '../../static/demo/datapic/11.jpg',
+          titlepic: '../../static/demo/datapic/20.jpg',
           infonum: {
             dingnum: 10,
             cainum: 8,
@@ -344,7 +344,7 @@ __webpack_require__.r(__webpack_exports__);
           type: 'video', // 图文 img  视频 video
           playnum: 20,
           long: '2:27',
-          titlepic: '../../static/demo/datapic/11.jpg',
+          titlepic: '../../static/demo/datapic/21.jpg',
           infonum: {
             dingnum: 10,
             cainum: 8,
@@ -361,7 +361,7 @@ __webpack_require__.r(__webpack_exports__);
           type: 'video', // 图文 img  视频 video
           playnum: 20,
           long: '2:27',
-          titlepic: '../../static/demo/datapic/11.jpg',
+          titlepic: '../../static/demo/datapic/22.jpg',
           infonum: {
             dingnum: 10,
             cainum: 8,
@@ -381,7 +381,7 @@ __webpack_require__.r(__webpack_exports__);
           isguanzhu: false,
           title: '我是图片',
           type: 'img', // 图文 img  视频 video
-          titlepic: '../../static/demo/datapic/11.jpg',
+          titlepic: '../../static/demo/datapic/23.jpg',
           infonum: {
             dingnum: 10,
             cainum: 8,
@@ -398,7 +398,7 @@ __webpack_require__.r(__webpack_exports__);
           type: 'video', // 图文 img  视频 video
           playnum: 20,
           long: '2:27',
-          titlepic: '../../static/demo/datapic/11.jpg',
+          titlepic: '../../static/demo/datapic/24.jpg',
           infonum: {
             dingnum: 10,
             cainum: 8,
@@ -422,7 +422,7 @@ __webpack_require__.r(__webpack_exports__);
           isguanzhu: false,
           title: '我是图片',
           type: 'img', // 图文 img  视频 video
-          titlepic: '../../static/demo/datapic/11.jpg',
+          titlepic: '../../static/demo/datapic/25.jpg',
           infonum: {
             dingnum: 10,
             cainum: 8,
@@ -439,7 +439,7 @@ __webpack_require__.r(__webpack_exports__);
           type: 'video', // 图文 img  视频 video
           playnum: 20,
           long: '2:27',
-          titlepic: '../../static/demo/datapic/11.jpg',
+          titlepic: '../../static/demo/datapic/26.jpg',
           infonum: {
             dingnum: 10,
             cainum: 8,
@@ -459,7 +459,7 @@ __webpack_require__.r(__webpack_exports__);
           isguanzhu: false,
           title: '我是图片',
           type: 'img', // 图文 img  视频 video
-          titlepic: '../../static/demo/datapic/11.jpg',
+          titlepic: '../../static/demo/datapic/27.jpg',
           infonum: {
             dingnum: 10,
             cainum: 8,
@@ -476,7 +476,7 @@ __webpack_require__.r(__webpack_exports__);
           type: 'video', // 图文 img  视频 video
           playnum: 20,
           long: '2:27',
-          titlepic: '../../static/demo/datapic/11.jpg',
+          titlepic: '../../static/demo/datapic/28.jpg',
           infonum: {
             dingnum: 10,
             cainum: 8,
@@ -496,7 +496,7 @@ __webpack_require__.r(__webpack_exports__);
           isguanzhu: false,
           title: '我是图片',
           type: 'img', // 图文 img  视频 video
-          titlepic: '../../static/demo/datapic/11.jpg',
+          titlepic: '../../static/demo/datapic/29.jpg',
           infonum: {
             dingnum: 10,
             cainum: 8,
@@ -513,7 +513,7 @@ __webpack_require__.r(__webpack_exports__);
           type: 'video', // 图文 img  视频 video
           playnum: 20,
           long: '2:27',
-          titlepic: '../../static/demo/datapic/11.jpg',
+          titlepic: '../../static/demo/datapic/30.jpg',
           infonum: {
             dingnum: 10,
             cainum: 8,

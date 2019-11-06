@@ -1,6 +1,7 @@
 {
   "titleNView": false,
   "usingComponents": {
-    "uni-nav-bar": "/components/uni-nav-bar/uni-nav-bar"
+    "news-nav-bar": "/components/news/news-nav-bar",
+    "common-list": "/components/common/common-list"
   }
 }
