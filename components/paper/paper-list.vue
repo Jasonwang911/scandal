@@ -1,5 +1,5 @@
 <template>
-	<view class="paper-list u-f-ac">
+	<view class="paper-list u-f-ac  animated fadeInLeft fast" @tap="openDetail">
 		<image :src="item.userpic" mode="widthFix" lazy-load></image>
 		<view>
 			<view class="u-f-jsb">
@@ -26,6 +26,13 @@
 		props: {
 			item: Object,
 			index: Number
+		},
+		methods: {
+			openDetail() {
+				uni.navigateTo({
+					url: '../../pages/user-chat/user-chat'
+				});
+			}
 		}
 	}
 </script>

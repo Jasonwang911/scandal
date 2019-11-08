@@ -157,6 +157,60 @@
 					"scrollIndicator":"none"
 				}
 			}
+		},
+		{
+			"path" : "pages/user-list/user-list",
+			"style" : {
+				"app-plus": {
+					// 页面入场动画
+					"animationType": "slide-in-left",
+					"bounce": "none",
+					// 隐藏滚动条
+					"scrollIndicator":false,
+					// 导航栏
+					"titleNView": {
+						"autoBackButton": false,
+						"searchInput": {
+								 "align":"left",
+								 "backgroundColor":"#F7F7F7",
+								 "borderRadius":"4px",
+								 "placeholder":"搜索",
+								 "placeholderColor":"#CCCCCC",
+								 "disabled":false
+							},
+						"buttons": [
+							// 右边
+							{
+								"color": "#000000",
+								"colorPressed": "#BBBBBB",
+								"float":"right",
+								"fontSize":"16px",
+								"text":"取消"
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"path" : "pages/user-chat/user-chat",
+			"style" : {
+				"navigationBarTitleText":"聊天页",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [
+							{
+								"color": "#000000",
+								"colorPressed": "#BBBBBB",
+								"float":"right",
+								"fontSize":"22px",
+								"fontSrc":"/static/font/icon.ttf",
+								"text":"\ue628"
+							}
+						]
+					}
+				}
+			}
 		}
   ],
 	"globalStyle": {
