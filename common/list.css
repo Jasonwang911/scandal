@@ -1,0 +1,75 @@
+/* 列表样式 */
+	.common-list{
+		padding: 20upx;
+		border-bottom: 1upx solid #EEEEEE;
+	}
+	.common-list-l{
+		flex-shrink: 0;
+	}
+	.common-list-l image{
+		width: 90upx;
+		height: 90upx;
+		border-radius: 100%;
+	}
+	.common-list-r{
+		flex: 1;
+		margin-left: 15upx;
+		padding-bottom: 10upx;
+	}
+	.common-list-r .big-img image{
+		width: 100%;
+		border-radius: 10upx;
+	}
+	.common-list-share{
+		background: #EEEEEE;
+		/* width: 95%; */
+		padding: 10upx;
+		border-radius: 10upx;
+	}
+	.common-list-share>image{
+		width: 200upx;
+		height: 150upx;
+		margin-right: 10upx;
+	}
+	.common-list-r>view:nth-child(1)>view:first-child {
+		color: #999999;
+		font-size: 30upx;
+	}
+	.common-list-r>view:nth-child(1)>view:last-child {
+		background: #EEEEEE;
+		padding: 0 10upx;
+		font-size: 30upx;
+	}
+	.tag-guanzhu{
+		border-radius: 10upx;
+	}
+	.common-list-r>view:nth-child(2) {
+		font-size: 32upx;
+		margin: 12upx 0;
+	}
+	.common-list-r>view:nth-child(3) {
+		position: relative;
+		margin-bottom: 10upx;
+	}
+	.index-list-play{
+		position: absolute;
+		font-size: 180upx;
+		color: #FFFFFF;
+	}
+	.index-list-playinfo{
+		position: absolute;
+		background: rgba(51,51,51,0.72);
+		color: #FFFFFF;
+		bottom: 8upx;
+		right: 8upx;
+		border-radius: 40upx;
+		padding: 0 20upx;
+		font-size: 22upx;
+	}
+	.common-list-comment>view {
+		color: #AAAAAA;
+	}
+	.common-list-comment>view:nth-child(2)>view {
+		padding: 0 8upx;
+		font-size: 25upx;
+	}

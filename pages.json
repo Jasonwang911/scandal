@@ -42,8 +42,8 @@
 			}
 		},
 		{
-				"path" : "pages/news/news",
-				"style" : {
+				"path": "pages/news/news",
+				"style": {
 					"app-plus": {
 						// 关闭反弹效果
 						"bounce": "none",
@@ -53,8 +53,8 @@
 				}
 		},
 		{
-			"path" : "pages/paper/paper",
-			"style" : {
+			"path": "pages/paper/paper",
+			"style": {
 				// 开启下拉刷新
 				"enablePullDownRefresh": true,
 				"navigationBarTitleText":"小纸条",
@@ -85,12 +85,13 @@
 			}
 		},
 		{
-			"path" : "pages/home/home",
-			"style" : {}
+			"path": "pages/home/home",
+			"style": {}
 		},
 		{
-			"path" : "pages/search/search",
-			"style" : {
+			"path": "pages/search/search",
+			"style": {
+				"enablePullDownRefresh": true,
 				"app-plus": {
 					"bounce": "none",
 					// 隐藏滚动条
@@ -121,8 +122,8 @@
 			}
 		},
 		{
-			"path" : "pages/add-input/add-input",
-			"style" : {
+			"path": "pages/add-input/add-input",
+			"style": {
 				"app-plus": {
 					// 禁止原生导航 navigationStyle为custom，或titleNView为false
 					"titleNView":false
@@ -130,8 +131,8 @@
 			}
 		},
 		{
-			"path" : "pages/topic-nav/topic-nav",
-			"style" : {
+			"path": "pages/topic-nav/topic-nav",
+			"style": {
 				"navigationBarTitleText":"话题分类",
 				"app-plus": {
 					"bounce":"none"
@@ -193,8 +194,8 @@
 			}
 		},
 		{
-			"path" : "pages/user-chat/user-chat",
-			"style" : {
+			"path": "pages/user-chat/user-chat",
+			"style": {
 				"navigationBarTitleText":"聊天页",
 				"app-plus": {
 					"titleNView": {
@@ -206,6 +207,23 @@
 								"fontSize":"22px",
 								"fontSrc":"/static/font/icon.ttf",
 								"text":"\ue628"
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"path" : "pages/detail/detail",
+			"style" : {
+				"navigationBarTitleText":"内容详情",
+				"app-plus": {
+					"scrollIndicator":"none",
+					"bounce":"none",
+					"titleNView": {
+						"buttons": [
+							{
+								"type":"menu"
 							}
 						]
 					}

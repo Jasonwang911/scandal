@@ -30,6 +30,7 @@
 		border-top: 1upx solid #EEEEEE;
 		padding: 0 20upx;
 		width: 96%;
+		background: #FFFFFF;
 	}
 	.user-chat-bottom>input{
 		flex: 1;
