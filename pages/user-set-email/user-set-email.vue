@@ -1,8 +1,7 @@
 <template>
 	<view class="body">
-		<input type="text" password="true" v-model="oldpassword" class="uni-input common-input" placeholder="输入旧密码" />
-		<input type="text" password="true" v-model="newpassword" class="uni-input common-input" placeholder="输入新密码" />
-		<input type="text" password="true" v-model="renewpassword" class="uni-input common-input" placeholder="输入确认密码" />
+		<input type="email" v-model="email" class="uni-input common-input" placeholder="输入需要绑定的邮箱" />
+		<input type="text" password="true" v-model="password" class="uni-input common-input" placeholder="输入密码" />
 		<button type="primary" class="user-set-btn" :loading="loading" :class="[disable? 'user-set-btn-disable': '']" @tap="submit">完成</button>
 	</view>
 </template>
@@ -11,28 +10,24 @@
 	export default {
 		data() {
 			return {
-				oldpassword: '',
-				newpassword: '',
-				renewpassword: '',
+				email: '',
+				password: '',
 				disable: true,
 				loading: false
 			}
 		},
 		watch: {
-			oldpassword(val) {
+			email(val) {
 				this.change()
 			},
-			newpassword(val) {
+			password(val) {
 				this.change()
-			},
-			renewpassword(val) {
-				this.change()
-			},
+			}
 		},
 		methods: {
 			// 监听输入框 
 			change() {
-				if(this.oldpassword && this.newpassword && this.renewpassword) {
+				if(this.email && this.password) {
 					this.disable = false
 				} else {
 					this.disable = true
@@ -40,35 +35,30 @@
 			},
 			// 验证层
 			check() {
-				if(!this.oldpassword) {
+				if(!this.email) {
 					uni.showToast({
-						title: '旧密码不能为空',
+						title: '邮箱不能为空',
 						icon: 'none'
 					});
 					return false
 				}
-				if(!this.newpassword) {
+				// 验证邮箱格式
+				let ePattern = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+				if(!ePattern.test(this.email)){
 					uni.showToast({
-						title: '新密码不能为空',
+						title: '请输入正确邮箱格式',
+						icon:"none"
+					});
+					return false;
+				}
+				if(!this.password) {
+					uni.showToast({
+						title: '密码不能为空',
 						icon: 'none'
 					});
 					return false
 				}
-				if(!this.renewpassword) {
-					uni.showToast({
-						title: '确认密码不能为空',
-						icon: 'none'
-					});
-					return false
-				}
-				if(this.renewpassword !== this.newpassword) {
-					uni.showToast({
-						title: '两次输入的新密码不一致',
-						icon: 'none'
-					});
-					return false
-				}
-				if(this.oldpassword && this.newpassword && this.renewpassword) {
+				if(this.email && this.password) {
 					return true;
 				}
 				uni.showToast({

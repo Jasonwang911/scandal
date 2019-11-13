@@ -26,8 +26,13 @@
 					},
 					{
 						name: '绑定邮箱',
-						clicktype: '',
-						url: ''
+						clicktype: 'navigateTo',
+						url: '../../pages/user-set-email/user-set-email'
+					},
+					{
+						name: '资料编辑',
+						clicktype: 'navigateTo',
+						url: '../../pages/user-set-userinfo/user-set-userinfo'
 					},
 					{
 						name: '小纸条',
@@ -41,13 +46,13 @@
 					},
 					{
 						name: '意见反馈',
-						clicktype: '',
-						url: ''
+						clicktype: 'navigateTo',
+						url: '../../pages/user-set-help/user-set-help'
 					},
 					{
 						name: '关于我们',
-						clicktype: '',
-						url: ''
+						clicktype: 'navigateTo',
+						url: '../../pages/user-set-about/user-set-about'
 					}
 				]
 			}
