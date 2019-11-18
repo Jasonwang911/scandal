@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"body.",[1],"data-v-7d59ce37{ padding: 0 ",[0,10]," ",[0,120]," ",[0,10],"; }\n",],undefined,{path:"./pages/user-chat/user-chat.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/user-chat/user-chat.wxml') } }));

@@ -1,0 +1,21 @@
+
+.cell-pd.data-v-7423f252 {
+	padding: 22rpx 30rpx;
+}
+.list-pd.data-v-7423f252 {
+	margin-top: 50rpx;
+}
+.uni-uploader__file.data-v-7423f252{
+	position: relative;
+}
+.shanchu.data-v-7423f252{
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 10;
+	background: #333333;
+	color: #FFFFFF;
+	padding: 2rpx 16rpx;
+	border-radius: 10rpx;
+}
+

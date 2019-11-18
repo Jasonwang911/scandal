@@ -1,0 +1,8 @@
+
+.body.data-v-463d21e6{
+	padding: 0 20rpx;
+}
+.home-list>view.data-v-463d21e6:first-child{
+	border-top: 1rpx solid #F4F4F4;
+}
+

@@ -1,0 +1,11 @@
+
+.u-comment-list-child.data-v-0d311fe0{
+	padding: 20rpx;
+	background: #F4F4F4;
+	border-bottom: 1rpx solid #F4F4F4;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	width: auto;
+	margin: 0 0 0 70rpx;
+}
+

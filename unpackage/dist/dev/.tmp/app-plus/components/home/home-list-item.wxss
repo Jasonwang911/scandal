@@ -1,0 +1,18 @@
+
+.home-list-item.data-v-f4e86944{
+	padding: 20rpx;
+	border-bottom: 1rpx solid #F4F4F4;
+}
+.home-list-hover.data-v-f4e86944 {
+	background: #F4F4F4;
+}
+.home-list-item>view.data-v-f4e86944:first-child{
+	color: #333333;
+}
+.home-list-item>view:first-child>view.data-v-f4e86944{
+	margin-right: 10rpx;
+}
+.home-list-item>view.data-v-f4e86944:last-child{
+	color: #CCCCCC;
+}
+

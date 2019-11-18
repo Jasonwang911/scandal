@@ -1,0 +1,16 @@
+
+.body.data-v-74d6d24e{
+	padding: 0 20rpx;
+}
+input.data-v-74d6d24e {
+	border-bottom: 1rpx solid #F4F4F4;
+}
+.common-input.data-v-74d6d24e{
+	font-size: 30rpx;
+}
+.user-set-btn-disable.data-v-74d6d24e{
+	background: #F4F4F4 !important;
+	border: 1rpx solid #EEEEEE !important;
+	color: #909090 !important;
+}
+

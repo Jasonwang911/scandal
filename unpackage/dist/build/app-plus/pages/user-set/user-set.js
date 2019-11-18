@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"body.",[1],"data-v-463d21e6{ padding: 0 ",[0,20],"; }\n.",[1],"home-list\x3ewx-view.",[1],"data-v-463d21e6:first-child{ border-top: ",[0,1]," solid #F4F4F4; }\n",],undefined,{path:"./pages/user-set/user-set.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/user-set/user-set.wxml') } }));

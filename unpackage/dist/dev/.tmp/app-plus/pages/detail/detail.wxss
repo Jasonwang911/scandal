@@ -1,0 +1,15 @@
+
+.body.data-v-ea2ab7be{
+	padding-bottom: 150rpx;
+}
+/* 评论样式 */
+.u-comment-title.data-v-ea2ab7be{
+	padding: 20rpx;
+	font-size: 30rpx;
+	font-weight: bold;
+}
+.u-comment.data-v-ea2ab7be{
+	padding: 0 20rpx;
+}
+
+

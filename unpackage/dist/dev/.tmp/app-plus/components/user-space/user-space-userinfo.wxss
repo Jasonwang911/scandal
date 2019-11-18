@@ -1,0 +1,24 @@
+
+.user-space-data.data-v-057475cd{
+	background: #FFFFFF;
+	position: relative;
+	z-index: 10;
+	border-radius: 20rpx 20rpx 0 0;
+	margin-top: -15rpx;
+}
+.user-space-userinfo.data-v-057475cd {
+	padding: 0 30rpx;
+}
+.user-space-userinfo-item.data-v-057475cd {
+	padding: 20rpx 0;
+	border-bottom: 1rpx solid #EEEEEE;
+}
+.user-space-userinfo-item>view.data-v-057475cd{
+	color: #AAAAAA;
+}
+.user-space-userinfo-item>view.data-v-057475cd:first-child {
+	color: #333333;
+	font-size: 35rpx;
+	padding: 15rpx 0;
+}
+

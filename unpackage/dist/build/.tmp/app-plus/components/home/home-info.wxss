@@ -1,0 +1,50 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 登录 */
+.home-info.data-v-03b99c7d{
+	padding: 20rpx 40rpx;
+}
+.home-info image.data-v-03b99c7d {
+	-webkit-flex-shrink: 0;
+	    -ms-flex-negative: 0;
+	        flex-shrink: 0;
+	width: 100rpx;
+	height: 100rpx;
+	border-radius: 100%;
+	margin-right: 15rpx;
+}
+.home-info>view:first-of-type>view.data-v-03b99c7d:first-child{
+	font-size: 32rpx;
+}
+.home-info>view:first-of-type>view.data-v-03b99c7d:last-child{
+	color: #BBBBBB;
+}
+.home-info>view.data-v-03b99c7d:last-of-type{
+	height: 100%;
+}
+

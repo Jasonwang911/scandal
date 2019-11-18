@@ -1,0 +1,38 @@
+
+.body.data-v-249ef4e2{
+	padding: 0 20rpx;
+}
+input.data-v-249ef4e2 {
+	border-bottom: 1rpx solid #F4F4F4;
+}
+.common-input.data-v-249ef4e2{
+	font-size: 30rpx;
+}
+.user-set-btn-disable.data-v-249ef4e2{
+	background: #F4F4F4 !important;
+	border: 1rpx solid #EEEEEE !important;
+	color: #909090 !important;
+}
+/* 列表 */
+.user-set-userinfo-list.data-v-249ef4e2{
+	padding: 20rpx;
+	border-bottom: 1rpx solid #F4F4F4;
+}
+.user-set-userinfo-list>view.data-v-249ef4e2:first-child{
+	font-size: 30rpx;
+	font-weight: bold;
+	color: #9B9B9B;
+}
+.user-set-userinfo-list>view:last-child>image.data-v-249ef4e2{
+	width: 80rpx;
+	height: 80rpx;
+	border-radius: 100%;
+}
+.user-set-userinfo-list>view:last-child>input.data-v-249ef4e2{
+	text-align: right;
+}
+.user-set-userinfo-list>view:last-child>view.data-v-249ef4e2:last-of-type{
+	margin-left: 20rpx;
+	color: #9B9B9B;
+}
+

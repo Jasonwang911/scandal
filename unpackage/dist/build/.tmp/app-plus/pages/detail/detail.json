@@ -1,0 +1,20 @@
+{
+  "navigationBarTitleText": "内容详情",
+  "animationType": "slide-in-bottom",
+  "animationDuration": 200,
+  "scrollIndicator": "none",
+  "bounce": "none",
+  "titleNView": {
+    "buttons": [
+      {
+        "type": "menu"
+      }
+    ]
+  },
+  "usingComponents": {
+    "detail-info": "/components/detail/detail-info",
+    "comment-list": "/components/detail/comment-list",
+    "user-chat-bottom": "/components/user-chat/user-chat-bottom",
+    "more-share": "/components/common/more-share"
+  }
+}

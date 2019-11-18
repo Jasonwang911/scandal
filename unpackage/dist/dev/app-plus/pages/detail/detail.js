@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"body.",[1],"data-v-ea2ab7be{ padding-bottom: ",[0,150],"; }\n.",[1],"u-comment-title.",[1],"data-v-ea2ab7be{ padding: ",[0,20],"; font-size: ",[0,30],"; font-weight: bold; }\n.",[1],"u-comment.",[1],"data-v-ea2ab7be{ padding: 0 ",[0,20],"; }\n",],undefined,{path:"./pages/detail/detail.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/detail/detail.wxml') } }));

@@ -1,0 +1,27 @@
+
+.user-chat-bottom.data-v-44108749{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	height: 120rpx;
+	border-top: 1rpx solid #EEEEEE;
+	padding: 0 20rpx;
+	width: 96%;
+	background: #FFFFFF;
+}
+.user-chat-bottom>input.data-v-44108749{
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1;
+	width: 100%;
+	margin-right: 20rpx;
+	padding: 10rpx 20rpx;
+	border-radius: 10rpx;
+	background: #F7F7F7;
+}
+.user-chat-bottom .fasong.data-v-44108749{
+	width: 80rpx;
+	font-size: 45rpx;
+}
+

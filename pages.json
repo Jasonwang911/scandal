@@ -138,6 +138,10 @@
 			"path": "pages/add-input/add-input",
 			"style": {
 				"app-plus": {
+					// 从下面进入页面
+					"animationType":"slide-in-bottom",
+					// 动画时间200秒
+					"animationDuration": 200,
 					// 禁止原生导航 navigationStyle为custom，或titleNView为false
 					"titleNView":false
 				}
@@ -158,6 +162,10 @@
 				// 开启下拉刷新
 				"enablePullDownRefresh": true,
 				"app-plus": {
+					// 从下面进入页面
+					"animationType":"slide-in-bottom",
+					// 动画时间200秒
+					"animationDuration": 200,
 					"titleNView": {
 						// 导航栏样式。"default"-默认样式；"transparent"-滚动透明渐变；"float"-悬浮导航栏。
 						"type": "transparent",
@@ -231,6 +239,8 @@
 			"style" : {
 				"navigationBarTitleText":"内容详情",
 				"app-plus": {
+					"animationType":"slide-in-bottom",
+					"animationDuration": 200,
 					"scrollIndicator":"none",
 					"bounce":"none",
 					"titleNView": {

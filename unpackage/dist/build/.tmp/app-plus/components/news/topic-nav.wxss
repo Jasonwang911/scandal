@@ -1,0 +1,27 @@
+
+.topic-nav.data-v-ec2decfc {
+	border-bottom: 1rpx solid #EEEEEE;
+	border-top: 1rpx solid #EEEEEE;
+	padding: 20rpx;
+}
+.topic-nav>view.data-v-ec2decfc:first-child{
+	margin-bottm: 10rpx;
+}
+.topic-nav>view:first-child>view.data-v-ec2decfc {
+	font-size: 32rpx;
+}
+.topic-nav>view:first-child>view.data-v-ec2decfc:last-child{
+	color: #9E9E9E;
+	font-size: 20rpx;
+}
+.topic-nav>view:last-child>view.data-v-ec2decfc{
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1;
+	background: #EEEEEE;
+	color: #9E9E9E;
+	border-radius: 10rpx;
+	margin: 0 10rpx;
+}
+

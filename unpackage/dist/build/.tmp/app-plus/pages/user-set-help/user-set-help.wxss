@@ -1,0 +1,21 @@
+
+.body.data-v-0fcc6397{
+	padding: 0 20rpx;
+}
+input.data-v-0fcc6397 {
+	border-bottom: 1rpx solid #F4F4F4;
+}
+.common-input.data-v-0fcc6397{
+	font-size: 30rpx;
+}
+.user-set-btn-disable.data-v-0fcc6397{
+	background: #F4F4F4 !important;
+	border: 1rpx solid #EEEEEE !important;
+	color: #909090 !important;
+}
+.content.data-v-0fcc6397 {
+	padding: 30rpx;
+	background: #f9f9f9;
+	color: #666;
+}
+

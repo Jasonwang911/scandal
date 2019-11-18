@@ -1,0 +1,34 @@
+
+.search-input.data-v-e7240c3e {
+	padding: 20rpx;
+}
+.search-input input.data-v-e7240c3e {
+	background: #F4F4F4;
+	border-radius: 10rpx;
+}
+.topic-search.data-v-e7240c3e{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	font-size: 28rpx;
+}
+.topic-swiper.data-v-e7240c3e{
+	padding: 0 20rpx 20rpx 20rpx;
+}
+.topic-swiper image.data-v-e7240c3e{
+	width: 100%;
+	border-radius: 10rpx;
+}
+.topic-new.data-v-e7240c3e{
+	padding: 20rpx;
+}
+.topic-new>view.data-v-e7240c3e:first-child{
+	padding-bottom: 5rpx;
+	font-size: 32rpx;
+}
+

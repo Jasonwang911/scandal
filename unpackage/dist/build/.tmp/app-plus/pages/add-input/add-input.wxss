@@ -1,0 +1,23 @@
+
+.title.data-v-ce4214bc{
+	margin: 0 auto;
+}
+.text-input.data-v-ce4214bc{
+	border: 1rpx solid #EEEEEE;
+}
+.gonggao.data-v-ce4214bc{
+	width: 500rpx;
+}
+.gonggao-img image.data-v-ce4214bc{
+	width: 85%;
+	margin-bottom: 20rpx;
+}
+.gonggao button.data-v-ce4214bc{
+	background: #FFE934;
+	color: #171606;
+	margin-top: 20rpx;
+}
+.gonggao-text.data-v-ce4214bc{
+	text-align: left !important;
+}
+

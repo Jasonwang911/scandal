@@ -1,0 +1,99 @@
+/* 列表样式 */
+.common-list.data-v-0f4cdb9f{
+		padding: 20rpx;
+		border-bottom: 1rpx solid #EEEEEE;
+}
+.common-list-l.data-v-0f4cdb9f{
+		-webkit-flex-shrink: 0;
+		    -ms-flex-negative: 0;
+		        flex-shrink: 0;
+}
+.common-list-l image.data-v-0f4cdb9f{
+		width: 90rpx;
+		height: 90rpx;
+		border-radius: 100%;
+}
+.common-list-r.data-v-0f4cdb9f{
+		-webkit-box-flex: 1;
+		-webkit-flex: 1;
+		    -ms-flex: 1;
+		        flex: 1;
+		margin-left: 15rpx;
+		padding-bottom: 10rpx;
+}
+.common-list-r .big-img image.data-v-0f4cdb9f{
+		width: 100%;
+		border-radius: 10rpx;
+}
+.common-list-share.data-v-0f4cdb9f{
+		background: #EEEEEE;
+		/* width: 95%; */
+		padding: 10rpx;
+		border-radius: 10rpx;
+}
+.common-list-share>image.data-v-0f4cdb9f{
+		width: 200rpx;
+		height: 150rpx;
+		margin-right: 10rpx;
+}
+.common-list-r>view:nth-child(1)>view.data-v-0f4cdb9f:first-child {
+		color: #999999;
+		font-size: 30rpx;
+}
+.common-list-r>view:nth-child(1)>view.data-v-0f4cdb9f:last-child {
+		background: #EEEEEE;
+		padding: 0 10rpx;
+		font-size: 30rpx;
+}
+.tag-guanzhu.data-v-0f4cdb9f{
+		border-radius: 10rpx;
+}
+.common-list-r>view.data-v-0f4cdb9f:nth-child(2) {
+		font-size: 32rpx;
+		margin: 12rpx 0;
+}
+.common-list-r>view.data-v-0f4cdb9f:nth-child(3) {
+		position: relative;
+		margin-bottom: 10rpx;
+}
+.index-list-play.data-v-0f4cdb9f{
+		position: absolute;
+		font-size: 180rpx;
+		color: #FFFFFF;
+}
+.index-list-playinfo.data-v-0f4cdb9f{
+		position: absolute;
+		background: rgba(51,51,51,0.72);
+		color: #FFFFFF;
+		bottom: 8rpx;
+		right: 8rpx;
+		border-radius: 40rpx;
+		padding: 0 20rpx;
+		font-size: 22rpx;
+}
+.common-list-comment>view.data-v-0f4cdb9f {
+		color: #AAAAAA;
+}
+.common-list-comment>view:nth-child(2)>view.data-v-0f4cdb9f {
+		padding: 0 8rpx;
+		font-size: 25rpx;
+}
+.common-list-r .user-name.data-v-0f4cdb9f {
+	color: #999999;
+	font-size: 30rpx;
+}
+.common-list-r .tag-guanzhu.data-v-0f4cdb9f {
+	background: #EEEEEE;
+	padding: 0 10rpx;
+	font-size: 30rpx;
+}
+.common-list-r .common-list-r-time.data-v-0f4cdb9f {
+	padding: 15rpx 0;
+	color: #CCCCCC;
+	font-size: 25rpx;
+	background: #FFFFFF !important;
+}
+.common-list-r .big-img image.data-v-0f4cdb9f{
+	margin-bottom: 20rpx;
+}
+

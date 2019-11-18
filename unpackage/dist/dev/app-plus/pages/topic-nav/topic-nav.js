@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"topic-view.",[1],"data-v-5e36e04d{ padding: 0 ",[0,20],"; }\n",],undefined,{path:"./pages/topic-nav/topic-nav.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/topic-nav/topic-nav.wxml') } }));

@@ -1,0 +1,68 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 操作菜单 */
+.paper-left-popup-mask.data-v-8d1c6f32{
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	z-index: 99;
+}
+.paper-left-popup.data-v-8d1c6f32{
+	position: fixed;
+	right: 0;
+	top: 10rpx;
+	
+	background: #FFFFFF;
+	z-index: 100;
+	width: 55%;
+	-webkit-box-shadow: 1rpx 1rpx 20rpx 2rpx #CCCCCC;
+	        box-shadow: 1rpx 1rpx 20rpx 2rpx #CCCCCC;
+}
+.paper-left-popup>view.data-v-8d1c6f32{
+	padding: 20rpx;
+	font-size: 35rpx;
+}
+.paper-left-popup>view>view.data-v-8d1c6f32{
+	margin-right: 20rpx;
+	font-weight: bold;
+}
+.paper-left-popup-h.data-v-8d1c6f32{
+	background: #EEEEEE;
+}
+
